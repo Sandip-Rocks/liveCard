@@ -187,7 +187,6 @@ export default function Form() {
             <p
               style={{
                 color: "#f44336",
-                marginLeft: "-270px",
                 marginTop: "4px",
                 fontSize: "13px",
               }}
