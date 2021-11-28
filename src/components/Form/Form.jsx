@@ -122,7 +122,7 @@ export default function Form() {
 
           <br />
           <br />
-          <div style={{ marginLeft: "-300px" }}>
+          <div>
             <div
               className="area"
               style={{ backgroundColor: selectedColor }}
@@ -157,7 +157,7 @@ export default function Form() {
             </Tippy>
           </div>
           <br />
-          <div style={{ marginLeft: "-200px" }}>
+          <div>
             <input
               type="file"
               name="picture"

@@ -35,9 +35,13 @@ export default function ImgMediaCard() {
       <CardContent>
         {stateData.image !== "" ? (
           <Avatar
-            alt="Remy Sharp"
+            alt={stateData.cardName}
             src={stateData.image}
-            style={{ height: "200px", width: "200px", margin: "10px 90px 30px 140px", }}
+            style={{
+              height: "200px",
+              width: "200px",
+              margin: "10px 90px 30px 90px",
+            }}
           />
         ) : (
           <Avatar style={{ height: "100px", width: "100px" }}>
